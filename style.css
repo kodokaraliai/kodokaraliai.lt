@@ -1,0 +1,44 @@
+* {
+    /* Haha monospace hacker font brrrrrrr I compile fonts myself :^) */
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-size: 14px;
+    max-width: 700px;
+    position: relative;
+    padding: 4vh 4vw;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    padding: 2vh 0;
+}
+
+nav {
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 80%;
+    padding: 4vh 0;
+}
+
+#tldr {
+    font-size: 115%;
+}
+
+/* Turbo smirda, nes vietoj to kad patapšnotų CSS, jis tapšnoja savo 2-bit sound machines... */
