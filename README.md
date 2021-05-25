@@ -1,7 +1,14 @@
-PASKAITUKAS.TXT
+# kodokaraliai.lt
 
 
 
-## Installation
+## dev
 
-You basically create a Dockerfile for NGINX, Traefik, some load balancer and other stuff. Clone this repo to `/var/www/kodokaraliai` and setup your docker-compose.yml.
+- `master` branch pahostintas ant [netflify](https://practical-northcutt-b5dcdb.netlify.app/). pisi į prod ir varai pažėt kaip atrodo :package:
+
+
+
+## production
+
+- niekas neruošta
+
