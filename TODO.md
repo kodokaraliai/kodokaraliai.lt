@@ -1,0 +1,6 @@
+# JIRA
+- [ ] pop-up kad renkam visą informaciją kokią tik galim ir yra dvi knopkės SUTINKU SUTINKU
+- minecrafte ofiso reik... kur žmonėm ateit...
+- page load counter like its 90s
+- kolektyvo nuotraukų...
+
