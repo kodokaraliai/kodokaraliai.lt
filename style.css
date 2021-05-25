@@ -1,43 +1,61 @@
+/* Turbo smirda, nes vietoj to kad patapšnotų CSS, jis tapšnoja savo 2-bit sound machines... */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background-color: black;
+    }
+    a {
+        color: yellow;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        color: black;
+    } 
+    a {
+        color: blue;
+    }
+}
+
 * {
     font-family: monospace, monospace;
 }
 
-h1 {
-    text-align: center;
+main {
+    padding: 0 5vw;
+    display: grid;
+    grid-template-columns:
+    1fr
+    min(65ch, 100%)
+    1fr;
 }
 
-body {
-    font-size: 14px;
-    max-width: 700px;
-    position: relative;
-    padding: 4vh 4vw;
-    margin: auto;
+main > * {
+    grid-column: 2; 
 }
 
-img {
-    max-width: 100%;
-    padding: 2vh 0;
-}
 
-nav {
-    padding-bottom: 2vh;
-    text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.full {
+    padding: 1vh 0;
+    width: 100%;
+    grid-column: 1 / 4;
 }
 
 footer {
     text-align: center;
-    font-size: 80%;
-    padding: 4vh 0;
 }
 
-#tldr {
-    font-size: 115%;
+img {
+    margin: 0 auto;
+    max-height: 500px;
 }
 
-/* Turbo smirda, nes vietoj to kad patapšnotų CSS, jis tapšnoja savo 2-bit sound machines... */
+@media only screen and (max-width : 600px) {
+    img {
+        padding: 1vh 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
