@@ -1,6 +1,5 @@
 * {
-    /* Haha monospace hacker font brrrrrrr I compile fonts myself :^) */
-    font-family: monospace;
+    font-family: monospace, monospace;
 }
 
 h1 {
